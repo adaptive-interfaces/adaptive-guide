@@ -52,6 +52,13 @@ Use this repository as follows:
 
 6. Iterate until output would pass code review without style or structure corrections.
 
+## Developer
+
+```shell
+npm install -g markdownlint-cli
+markdownlint "**/*.md"
+```
+
 ## Annotations
 
 [ANNOTATIONS.md](./ANNOTATIONS.md)

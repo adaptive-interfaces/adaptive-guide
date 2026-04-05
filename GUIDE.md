@@ -181,7 +181,7 @@ and what evidence to require before acting.
 A prompt template produces consistent phrasing.
 A skill specification produces consistent reasoning.
 
-Skill specifications constrain reasoning, 
+Skill specifications constrain reasoning,
 enabling consistent behavior across novel situations.
 
 ### 4.2 Writing priors an agent can act on
