@@ -1,0 +1,67 @@
+# ============================================================
+# adaptive-guide/MANIFEST.toml
+# ============================================================
+
+schema = "adaptive-interfaces-manifest-1"
+schema_url = "https://github.com/adaptive-interfaces/.github/blob/main/schemas/adaptive-interfaces-manifest-1.md"
+
+[meta]
+framework = "Adaptive Interfaces"
+framework_url = "https://github.com/adaptive-interfaces"
+framework_note = "Provides definitions and conventions for adaptive-interfaces manifest semantics."
+description = "Declarative claim of repository intent, scope, and role."
+purpose = "To make explicit the boundaries, responsibilities, and expectations of this repository relative to others."
+
+[repo]
+name = "adaptive-guide"
+kind = "guide"
+description = "Engineering discipline guide: how to write priors, structure agent context, and evaluate agent output so intelligent systems work as team members."
+
+[layer]
+space = "Agent Engineering"
+role = "guide"
+
+[depends]
+required = []
+optional = [
+  "adaptive-conformance-specification",
+  "adaptive-tool-discovery",
+  "adaptive-onboarding",
+  "adaptive-sensor-testing",
+]
+
+[provides]
+artifacts = [
+  "GUIDE.md",
+  "ANNOTATIONS.md",
+  "CITATION.cff",
+  "LICENSE",
+  "MANIFEST.toml",
+  "README.md",
+]
+
+[scope]
+includes = [
+  "engineering discipline guidance for agent collaboration",
+  "explanation of the three-prior framework (ACS, ATD, AO)",
+  "guidance on writing priors agents can act on",
+  "guidance on evaluating agent output as a team member",
+  "guidance on forking and tuning adaptive-interfaces skills",
+  "worked example reference pointing to adaptive-sensor-testing",
+]
+excludes = [
+  "skill specifications (defined in ACS, ATD, AO repos)",
+  "tool capability registries (defined by ATD)",
+  "team context documents (defined by AO)",
+  "domain-specific sensor or test logic",
+  "model training or fine-tuning",
+]
+
+[citation]
+cff = "CITATION.cff"
+preferred = "repo"
+
+[traceability]
+identifier_map = "none"
+
+
