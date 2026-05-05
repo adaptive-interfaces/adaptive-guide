@@ -1,6 +1,6 @@
 # adaptive-guide
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Markdown Lint](https://github.com/adaptive-interfaces/adaptive-guide/actions/workflows/md-lint.yml/badge.svg?branch=main)](https://github.com/adaptive-interfaces/adaptive-guide/actions/workflows/md-lint.yml)
 [![Check Links](https://github.com/adaptive-interfaces/adaptive-guide/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/adaptive-interfaces/adaptive-guide/actions/workflows/links.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/adaptive-interfaces/adaptive-guide/security)
@@ -54,9 +54,7 @@ Use this repository as follows:
 ## Developer
 
 ```shell
-npm install -g markdownlint-cli
-npm update -g markdownlint-cli
-markdownlint "**/*.md"
+npx markdownlint-cli2 --fix
 ```
 
 ## Annotations
@@ -81,4 +79,4 @@ Other repositories implement the skills.
 
 ## License
 
-[MIT](./LICENSE)
+MIT © 2026 [Adaptive Interfaces](https://github.com/adaptive-interfaces)
